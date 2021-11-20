@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Père-Noël mystère</string>
+    <string name="titleDelete">Suppression</string>
+    <string name="descriptionDelete">Êtes vous de votre action ?</string>
+    <string name="positiveDelete">Oui</string>
+    <string name="negativeDelete">Non</string>
+    <string name="pseudoEmpty">Veuillez entrer un nom de joueur</string>
+    <string name="phoneNumberEmpty">Veuillez entrer un numéro de téléphone</string>
+    <string name="phoneNumberUnvalid">"Le numéro de téléphone n'est pas valide"</string>
+    <string name="edtPseudoHint">Entrer un joueur</string>
+    <string name="edtPhoneNumberHint">Entrer le numéro</string>
+    <string name="btnSend">ENVOI</string>
+    <string name="textLanguage">Langue</string>
+</resources>

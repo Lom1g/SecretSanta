@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Secret Santa</string>
+    <string name="titleDelete">Delete</string>
+    <string name="descriptionDelete">Are you sure about this action ?</string>
+    <string name="positiveDelete">Yes</string>
+    <string name="negativeDelete">No</string>
+    <string name="pseudoEmpty">Enter a player name</string>
+    <string name="phoneNumberEmpty">Enter a phone number</string>
+    <string name="phoneNumberUnvalid">Phone number is not valid</string>
+    <string name="edtPseudoHint">Enter player name</string>
+    <string name="edtPhoneNumberHint">Enter phone number</string>
+    <string name="btnSend">SEND</string>
+    <string name="textLanguage">Language</string>
+</resources>
