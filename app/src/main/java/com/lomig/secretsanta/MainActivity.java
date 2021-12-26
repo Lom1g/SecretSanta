@@ -210,12 +210,12 @@ public class MainActivity extends AppCompatActivity{
             Collections.shuffle(tmpPlayerArrayList);
             for(int i = 0; i<tmpPlayerArrayList.size(); i++){
                 if(i!=tmpPlayerArrayList.size()-1){
-                    smsManager.sendTextMessage(playerArrayList.get(i).getPhoneNumber(), null,
-                        "C'est à " + playerArrayList.get(i+1).getPseudo().toUpperCase() + " que tu offres un cadeau.",
+                    smsManager.sendTextMessage(tmpPlayerArrayList.get(i).getPhoneNumber(), null,
+                        "C'est à " + tmpPlayerArrayList.get(i+1).getPseudo().toUpperCase() + " que tu offres un cadeau.",
                         null, null);
                 }else{
-                    smsManager.sendTextMessage(playerArrayList.get(i).getPhoneNumber(), null,
-                        "C'est à " + playerArrayList.get(FIRST_ITEM).getPseudo().toUpperCase() + " que tu offres un cadeau.",
+                    smsManager.sendTextMessage(tmpPlayerArrayList.get(i).getPhoneNumber(), null,
+                        "C'est à " + tmpPlayerArrayList.get(FIRST_ITEM).getPseudo().toUpperCase() + " que tu offres un cadeau.",
                         null, null);
                 }
 
